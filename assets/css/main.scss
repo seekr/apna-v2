@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600");
 
 /*
 	Forty by HTML5 UP
@@ -2672,13 +2672,13 @@ button {
       width: 60%;
     }
     &:nth-child(6n - 5):before {
-      background-color: #6fc3df;
+      background-color: rgb(0, 212, 170);
     }
     &:nth-child(6n - 4):before {
-      background-color: #8d82c4;
+      background-color: rgb(255, 204, 0);;
     }
     &:nth-child(6n - 3):before {
-      background-color: #ec8d81;
+      background-color: rgb(255, 0, 102);
     }
     &:nth-child(6n - 2):before {
       background-color: #e7b788;
@@ -2805,7 +2805,7 @@ button {
         -ms-align-items: center;
         align-items: center;
         padding: 2em 3em 0.1em 3em;
-        width: 70%;
+        width: 80%;
         > .inner {
           margin: 0 auto;
           max-width: 100%;
@@ -2846,7 +2846,7 @@ button {
       width: 45%;
     }
     .content {
-      width: 55%;
+      width: 70%;
     }
   }
 }
@@ -3000,44 +3000,8 @@ button {
       }
       &[href="#menu"] {
         padding-right: 3.325em !important;
-        &:before {
-          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: 24px 32px;
-          content: '';
-          display: block;
-          height: 100%;
-          position: absolute;
-          right: 1.5em;
-          top: 0;
-          vertical-align: middle;
-          width: 24px;
-        }
-        &:after {
-          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: 24px 32px;
-          content: '';
-          display: block;
-          height: 100%;
-          position: absolute;
-          right: 1.5em;
-          top: 0;
-          vertical-align: middle;
-          width: 24px;
-          -moz-transition: opacity 0.2s ease-in-out;
-          -webkit-transition: opacity 0.2s ease-in-out;
-          -ms-transition: opacity 0.2s ease-in-out;
-          transition: opacity 0.2s ease-in-out;
-          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %239bf1ff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
-          opacity: 0;
-          z-index: 1;
-        }
-        &:hover:after, &:active:after {
-          opacity: 1;
-        }
+        display: flex;
+        align-items: center;
         &:last-child {
           padding-right: 3.875em !important;
           &:before, &:after {
@@ -3260,8 +3224,8 @@ body.is-loading #header.alt {
         }
       }
       p {
-        font-size: 0.7em;
-        font-weight: 600;
+        font-size: 1.1em;
+        font-weight: 400;
         letter-spacing: 0.10em;
         max-width: 600px;
       }
@@ -3279,7 +3243,7 @@ body.is-loading #header.alt {
     background-color: #6fc3df;
   }
   &.style2:after {
-    background-color: #8d82c4;
+    background-color: rgb(0, 212, 170);
   }
   &.style3:after {
     background-color: #ec8d81;
