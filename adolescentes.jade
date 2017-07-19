@@ -1,0 +1,38 @@
+script
+	$('#adolescentes').hide();
+
+#wrapper
+	// Header
+	header#header
+		a.logo(href='index.html')
+			svg.logo(xmlns='http://www.w3.org/2000/svg', viewbox='0 0 340 94', width='120', height='30')
+				path(color='rgb(0, 0, 0)', overflow='visible', style='isolation:auto;mix-blend-mode:normal', fill='#00d4aa', d='M 169.67 4.95 c -3.72 0 -6.716 3.007 -6.716 6.742 v 72.616 c 0 3.735 2.996 6.744 6.716 6.744 h 15.17 V 62.687 a 2.922 2.934 0 0 1 2.99 -2.928 a 2.922 2.934 0 0 1 2.076 0.933 l 27.997 30.36 h 18.256 c 3.72 0 6.716 -3.01 6.716 -6.745 V 11.692 c 0 -3.735 -2.997 -6.743 -6.717 -6.743 h -14.427 l 0.302 22.382 a 2.922 2.934 0 0 1 -4.908 2.195 L 190.687 4.95 H 169.67 Z m 29.63 0 l 16.8 15.622 l -0.21 -15.623 H 199.3 Z m -8.618 65.225 v 20.877 h 19.255 l -19.255 -20.877 Z', solid-color='#000000')
+				path(color='rgb(0, 0, 0)', overflow='visible', style='isolation:auto;mix-blend-mode:normal', fill='#f06', d='M 125.378 4.993 c -9.012 0 -17.97 3.708 -24.342 10.08 c -6.372 6.373 -10.08 15.33 -10.08 24.342 a 3.356 3.356 0 0 0 0 0.006 c 0.013 8.63 3.53 17.122 9.422 23.423 v 24.79 a 3.356 3.356 0 0 0 3.355 3.356 h 15.583 a 3.356 3.356 0 0 0 3.355 -3.356 V 73.566 c 0.906 0.072 1.8 0.266 2.708 0.266 c 9.01 0 17.965 -3.71 24.337 -10.08 c 6.37 -6.37 10.08 -15.326 10.08 -24.337 c 0 -9.01 -3.71 -17.97 -10.08 -24.34 c -6.372 -6.374 -15.326 -10.08 -24.337 -10.082 Z', solid-color='#000000')
+				path(color='rgb(0, 0, 0)', overflow='visible', style='isolation:auto;mix-blend-mode:normal', fill='#00aad4', d='M 292.81 4.646 a 4.76 5.173 0 0 0 -3.87 2.584 l -40.574 76.374 a 4.76 5.173 0 0 0 4.12 7.758 h 81.15 a 4.76 5.173 0 0 0 4.12 -7.758 l -11.054 -20.808 h -53.41 a 2.757 2.768 0 0 1 -0.313 -0.023 a 2.757 2.768 0 0 1 -0.27 -0.046 a 2.757 2.768 0 0 1 -0.524 -0.178 a 2.757 2.768 0 0 1 -0.69 -0.453 a 2.757 2.768 0 0 1 -0.195 -0.195 a 2.757 2.768 0 0 1 -0.33 -0.44 a 2.757 2.768 0 0 1 -0.234 -0.5 a 2.757 2.768 0 0 1 -0.137 -0.538 a 2.757 2.768 0 0 1 -0.024 -0.275 a 2.757 2.768 0 0 1 0.17 -1.09 a 2.757 2.768 0 0 1 0.4 -0.722 a 2.757 2.768 0 0 1 0.177 -0.212 a 2.757 2.768 0 0 1 0.896 -0.63 a 2.757 2.768 0 0 1 0.256 -0.103 a 2.757 2.768 0 0 1 0.268 -0.07 a 2.757 2.768 0 0 1 0.548 -0.062 v -0.005 h 50.464 L 297.18 7.23 a 4.76 5.173 0 0 0 -3.898 -2.585 a 4.76 5.173 0 0 0 -0.473 0 Z', solid-color='#000000')
+				path(color='rgb(0, 0, 0)', overflow='visible', style='isolation:auto;mix-blend-mode:normal', fill='#fc0', d='M 48.688 4.644 a 4.76 5.173 0 0 0 -3.87 2.584 L 18.25 57.255 h 61.388 L 53.066 7.228 a 4.76 5.173 0 0 0 -3.898 -2.584 a 4.76 5.173 0 0 0 -0.48 0 Z m -33.384 58.15 L 4.25 83.605 a 4.76 5.173 0 0 0 4.12 7.756 h 81.144 a 4.76 5.173 0 0 0 4.12 -7.757 L 82.58 62.795 H 15.304 Z', solid-color='#000000')
+		nav
+			a(href='#menu') menu
+				i.material-icons menu
+	// Menu
+	nav#menu
+		ul.links
+			li
+				a(href='index.html') P&aacute;gina principal
+			li
+				a(href='equipo.html') Equipo interdisciplinario
+			li
+				a(href='adolescentes.html') Adolescentes
+
+	// Main
+	#main.alt
+		// One
+		section#one
+			.inner
+				header.major
+					h1 Adolescencia
+				.image.main(style='background-color: #FC0; color: rgba(0,0,0,.54); padding: 1em 2em;')
+					span(style='display: block;    font-size: 1.3em;    max-width: 768px;    font-weight: 400;') Entendemos la adolescencia como un periodo caracterizado por la reformulación de la constitución psíquica del sujeto, en donde su estructura se encuentra abierta en proceso de resignificación, con un cuerpo en metamorfosis y reorganizando sus referencias identificatorias. Este proceso suele ir acompañado de tristezas por lo perdido y angustia frente a la incertidumbre de lo nuevo.
+				p Asimismo el adolescente debe lograr la inclusión en el mundo adulto, logrando la individuación e identidad social a través del encuentro con otros por fuera de la familia.   
+				p El adolescente necesita conquistar él mismo un espacio psíquico de independencia paulatina, para poder construir su propia identidad. Para ello necesita contar con la disponibilidad, presencia y constancia de un espacio psíquico discriminado de parte de los padres.
+				svg(xmlns='http://www.w3.org/2000/svg', width='91.893', height='87.947', viewbox='0 0 91.892715 87.947296')
+					path(style='isolation:auto;mix-blend-mode:normal', d='M45.695.62a4.76 5.173 0 0 0-3.87 2.583L1.252 79.578a4.76 5.173 0 0 0 4.122 7.757h81.15a4.76 5.173 0 0 0 4.12-7.757L79.586 58.77h-53.41a2.757 2.768 0 0 1-.313-.024 2.757 2.768 0 0 1-.268-.045 2.757 2.768 0 0 1-.525-.177 2.757 2.768 0 0 1-.69-.453 2.757 2.768 0 0 1-.193-.195 2.757 2.768 0 0 1-.33-.44 2.757 2.768 0 0 1-.235-.5 2.757 2.768 0 0 1-.137-.538 2.757 2.768 0 0 1-.024-.275 2.757 2.768 0 0 1 .172-1.088 2.757 2.768 0 0 1 .4-.722 2.757 2.768 0 0 1 .177-.212 2.757 2.768 0 0 1 .895-.63 2.757 2.768 0 0 1 .256-.103 2.757 2.768 0 0 1 .27-.07 2.757 2.768 0 0 1 .547-.062v-.006h50.465L50.066 3.2A4.76 5.173 0 0 0 46.168.62a4.76 5.173 0 0 0-.474 0z', color='#000', overflow='visible', solid-color='#000000', fill='#FFF')
